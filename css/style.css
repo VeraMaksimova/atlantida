@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@font-face {
+    font-family: Amsdam;
+    src: url(../fonts/amsdam.ttf);
+}
+
+@font-face {
+    font-family: Roman;
+    src: url(../fonts/CrimsonText-Roman.ttf);
+}
+
+header{
+    padding-top:20px;
+}
+
+.head-menu{
+    align-items: baseline;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.logo{
+    font-weight: 700;
+    font-size:24px;
+    color: #757575;
+    text-transform: uppercase;
+    padding-left: 45px;
+    background-image: url(../../../MAKETS/atlantida/img/logo.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+.ul-menu{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    color: #b0b0b0;
+}
+
+.ul-menu li{
+    text-transform: uppercase;
+}
+
+
+.ul-menu li a{
+   padding: 10px 6.5px;
+   color: #b0b0b0;
+   
+}
+
+.ul-menu a:hover {
+    color: rgb(0, 0, 0);
+    transition: color 0.5s ;
+}
+
+
+.social  {
+    display: flex;
+}
+.social  img{
+    width: 13px;
+    height: 13px;
+    padding: 0 4px;
+}
+
+/*PROMO*/
+
+.promo{
+    background-image: url(../img/Layer_57.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.promo h1{
+    color: white;
+    font-family: Amsdam;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.promo img{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.promo span{
+    text-align: center;
+    color: white;
+    font-family:Roman ;
+}
+
+.promo span a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:Roman ;
+    padding: 2px 5px;
+}
+
+.promo span a:hover{
+    color:#acacac;
+}
+
+/*Main*/
+
+.main{
+    background-color: #e3e3e3;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr  0.1fr 1fr 0.1fr 1fr 0.8fr  ;
+}
+
+.main-1 img,.main-3 img{
+    width: 370px;
+    height: 370px;
+}
+.main-1{
+    grid-column-start: 2;
+  
+}
+
+.main-2{
+    grid-column-start: 4;
+ 
+}
+
+.main-3{
+    grid-column-start: 6;
+   
+}
+.main-2 img{
+height: 460px;
+width: 370px;
+}
+
+.main-1 h6,.main-2 h6,.main-3 h6{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-1 .p-1,.main-2 .p-1,.main-3 .p-1{
+    max-width: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c7c7c7;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 14px;
+    color: black;
+}
+
+.main-1 ul,.main-2 ul,.main-3 ul{
+    padding: 10px 0;
+    max-width: 370px;
+    border-bottom: 2px solid #c7c7c7;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    display: flex;
+    color: #909090;
+    font-weight: 800;
+}
+
+
+.main-1 li,.main-2 li,.main-3 li{
+    padding-left:30px ;
+}
+
+.main-1 .p-2,.main-2 .p-2,.main-3 .p-2{
+    padding-top: 10px;
+    font-family: Roman;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+    margin-bottom: 30px;
+}
+
+.main-1 button,.main-2 button,.main-3 button{
+  padding: 15px 30px;
+    border: 2px solid #5f5e5e;
+    font-weight: 600;
+    margin-bottom: 60px;
+
+}
